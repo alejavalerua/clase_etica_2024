@@ -1,0 +1,32 @@
+.etico-moral {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem;
+  align-self: center;
+  background-color: var(--angel);
+  color: var(--swamp-blue2);
+  padding: 1.2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.etico-moral h2 {
+  grid-column: 1 / span 3;
+  text-align: center;
+}
+
+.etico-moral-juego {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: .75rem;
+  color: var(--swamp-blue2);
+}
+
+.etico-moral-juego div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: .75rem;
+}
